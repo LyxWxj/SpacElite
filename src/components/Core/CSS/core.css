@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.v-enter-active {
+    transition: opacity 0.35s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+    opacity: 0;
+}
+
+.selectZone {
+    width: 27.25vw;
+    height: 87vh;
+    background-color: rgba(255, 255, 255, 0.65);
+    margin-top: 1vh;
+    margin-left: 1vh;
+    border-radius: 25px;
+    z-index: 0;
+}
+

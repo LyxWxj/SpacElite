@@ -1,0 +1,361 @@
+.spac, .E {
+    color: #32C5D8; /* 鼠标未选中时的统一颜色 */
+    transition: color 0.45s ease;
+    z-index: 1;
+}
+
+a:hover .spac {
+    color:rgb(99, 127, 161);
+}
+
+a:hover .E {
+    color:rgb(189, 117, 223);
+}
+
+.contact .h1 {
+    font-size: 4.5em;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(253, 253, 253, 0.1);
+    animation: fadeIn 0.75s ease-out;
+    background: linear-gradient(to top right, #D9ECDC, #E3F1CB);
+}
+body {
+    background-color: #D9ECDC;
+    color: #fab687;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}   
+header {
+    background: linear-gradient(to top right, #D9ECDC, #E3F1CB);
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+    position: relative;
+    overflow: visible;
+    transition: all 0.5s ease;
+    height: 30px;
+}
+
+header:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+header:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(225, 209, 209, 0.5);
+    z-index: -1;
+}
+
+header:hover {
+    height: 260px;
+    padding: 50px;
+}
+
+header h1,
+header h2 {
+    font-size: 48px;
+    transition: all 0.5s ease;
+}
+
+header:hover h1,
+header:hover h2 {
+    font-size: 36px;
+}
+
+header #hidden-info {
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    color: #333;
+    text-align: left;
+    transition: all 0.5s ease;
+    opacity: 0; /* 初始时设置为透明 */
+    flex: 1;
+}
+
+header:hover #hidden-info {
+    transition: all 0.5s ease;
+    display: block;
+    opacity: 1;
+    background-repeat:no-repeat ;
+}
+
+h1 {
+    color: #80f1e8;
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    margin: 0;
+    animation: slideInDown 1s ease-out;
+}
+h2 {
+    color: #8ffced;
+    font-size: 36px;
+    margin: 0;
+    animation: slideInUp 1s ease-out;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(253, 253, 253, 0.1);
+    animation: fadeIn 1s ease-out;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+li span {
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+}
+/* 设置元素滑入的动画 */
+@keyframes slideInDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+@keyframes slideInUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* 技能栏 */
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    animation: fadeIn 1s ease-out;
+}
+.skill-item {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(252, 251, 251, 0.1);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    opacity: 0.4;
+}
+.skill-item:hover {
+    transform: scale(1.075);
+    box-shadow: 0 0 20px rgba(226, 213, 213, 0.2);
+}
+.skill-item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 242, 242, 0.5);
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+.skill-item:hover:before {
+    opacity: 1;
+}
+.skill-item h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #c0bdbd;
+    position: relative;
+    z-index: 1;
+    animation: slideInUp 1s ease-out;
+}
+.skill-item p {
+    font-size: 16px;
+    margin: 10px 0 0;
+    color: #333;
+    position: relative;
+    z-index: 1;
+    animation: slideInDown 1s ease-out;
+}
+/* 项目栏 与技能栏几乎一样, 设置了点击进入链接的功能 */
+.proj {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    animation: fadeIn 1s ease-out;
+}
+.proj-item {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(252, 251, 251, 0.1);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    opacity: 0.4;
+}
+.proj-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(226, 213, 213, 0.2);
+}
+.proj-item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 242, 242, 0.5);
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+.proj-item:hover:before {
+    opacity: 1;
+}
+.proj-item h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #c0bdbd;
+    position: relative;
+    z-index: 1;
+    animation: slideInUp 1s ease-out;
+}
+.proj-item p {
+    font-size: 16px;
+    margin: 10px 0 0;
+    color: #333;
+    position: relative;
+    z-index: 1;
+    animation: slideInDown 1s ease-out;
+}
+/* 个人信息栏 */
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c1eccc;
+    padding: 20px;
+    opacity: 0.8;
+}
+.intro-item {
+    flex: 1 1 50%;
+    flex-basis: 45%;
+    margin: 10px;
+    padding: 20px;
+    background-color: linear-gradient(to top right, #A8EB12, #E2D2C9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    opacity: 0.8;
+
+}
+.intro-item:hover {
+    background-color:linear-gradient(to top right, #D9ECDC, #A8EB12);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(7, 7, 7, 0.2);
+}
+.intro-item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(161, 156, 156, 0.5);
+    z-index: -1;
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+.intro h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.intro ul{
+    color: #b3afaf;
+}
+.intro-item:hover:before {
+    
+    opacity: 1;
+}
+.intro-item h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #646363;
+    position: relative;
+    z-index: 1;
+    animation: slideInUp 1s ease-out;
+}
+.intro-item p {
+    font-size: 16px;
+    margin: 10px 0 0;
+    color: #080808;
+    position: relative;
+    z-index: 1;
+    animation: slideInDown 1s ease-out;
+}
+.intro li {
+    margin-bottom: 10px;
+}
+.intro ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.intro li span {
+    font-weight: bold;
+}
+
+/* 为图片设置淡入淡出效果 */
+.fade-in {
+    transition: opacity 0.5s ease;
+    opacity: 0.5;
+}
+
+.fade-in:hover {
+    opacity: 1;
+}

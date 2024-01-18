@@ -1,0 +1,138 @@
+.mainApp {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../assets/Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: -2;
+}
+
+.app {
+    height: 100vh;
+    z-index: 1;
+    background-image: radial-gradient(circle, #e4c2d5, #dec3da, #d7c4df, #cfc5e3, #c7c7e5, #c0cae7, #b9cde8, #b4d0e7, #b1d4e6, #b1d8e3, #b4dbdf, #b9dedb);
+}
+
+#navigator {
+    z-index: 2; /* 设置 z-index 为 2 */
+}
+
+#backgroundcanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.home .contact .help {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+
+.home {
+    background-image: radial-gradient(circle, #e4c2d5, #dec3da, #d7c4df, #cfc5e3, #c7c7e5, #c0cae7, #b9cde8, #b4d0e7, #b1d4e6, #b1d8e3, #b4dbdf, #b9dedb);
+}
+  
+.contact {
+    background-image: linear-gradient(to right, #e4c2d5, #dec3da, #d7c4df, #cfc5e3, #c7c7e5, #c0cae7, #b9cde8, #b4d0e7, #b1d4e6, #b1d8e3, #b4dbdf, #b9dedb);
+}
+
+.help {
+    background-image: linear-gradient(to left, #e4c2d5, #dec3da, #d7c4df, #cfc5e3, #c7c7e5, #c0cae7, #b9cde8, #b4d0e7, #b1d4e6, #b1d8e3, #b4dbdf, #b9dedb);
+}
+
+.core {
+    background-image: radial-gradient(circle, #e4c2d5, #dec3da, #d7c4df, #cfc5e3, #c7c7e5, #c0cae7, #b9cde8, #b4d0e7, #b1d4e6, #b1d8e3, #b4dbdf, #b9dedb);
+}
+
+.uploadfile {
+    background-image: linear-gradient(to bottom, #e4c2d5, #dec3da, #d7c4df, #cfc5e3, #c7c7e5, #c0cae7, #b9cde8, #b4d0e7, #b1d4e6, #b1d8e3, #b4dbdf, #b9dedb);
+}.logo {
+    text-align: right;
+    line-height: 0.01;
+    color:rgb(161, 177, 226);
+    z-index: 2;
+}
+
+a.logo {
+    text-decoration: none;
+    z-index: 2;
+}
+
+
+.logoline1, .logoline2, .logoline3 {
+    text-align: right;
+    line-height: 0.01;
+    transition: color 0.4s ease;
+    z-index: 2;
+}
+
+.logoline1 {
+    font-size: 1.25em;
+    font-weight: bold;
+    z-index: 2;
+    color: #dd6dad;
+}
+
+.logo:hover .logoline1 {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #ce4a95;
+}
+
+a .logoline1_spac {
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #37b5c6;
+}
+
+.logo:hover .logoline1_spac {
+    font-size: 1.0em;
+    color: #2ba7b7;
+    font-weight: bold;
+}
+
+.logoline1_E {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ec5eae;
+}
+
+.logo:hover .logoline1_E{
+    color: #ec44a3;
+}
+
+.logoline2 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #4db3ac;
+}
+
+.logo:hover .logoline2 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #1c9189;
+}
+
+.logoline3 {
+    font-size: 1em;
+    font-weight: bold;
+    color: #41aa8a;
+}
+
+.logo:hover .logoline3 {
+    font-size: 1em;
+    font-weight: bold;
+    color: #1e7e61;
+}
+

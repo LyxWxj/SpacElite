@@ -1,0 +1,9 @@
+.resultsZone{
+    width: 29.75vw;
+    height: 87vh;
+    background-color: rgba(255, 255, 255, 0.65);
+    margin-top: 1vh;
+    margin-left: 1vh;
+    border-radius: 25px;
+    z-index: 0;
+}

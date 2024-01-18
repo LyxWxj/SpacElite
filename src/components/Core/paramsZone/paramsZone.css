@@ -1,0 +1,19 @@
+/* .paramsZone {
+    width: 26.2vw;
+    height: 32vh;
+    background-color: rgba(255, 255, 255, 0.65);
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    z-index: 0;
+} */
+
+.paramsZone span{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(140, 220, 206);
+    top: 50%;
+    left: 50%;
+    margin-left: 1vw;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,37 @@
+.helpManual {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../assets/Background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+.helpContent {
+    height: 100vh;
+    z-index: 1;
+    background-image: radial-gradient(circle, #e4c2d5, #dec3da, #d7c4df, #cfc5e3, #c7c7e5, #c0cae7, #b9cde8, #b4d0e7, #b1d4e6, #b1d8e3, #b4dbdf, #b9dedb);
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.helpTitle {
+    font-size: 2em;
+    color: #dd6dad;
+    margin-bottom: 20px;
+}
+
+.helpSubtitle {
+    font-size: 1.5em;
+    color: #b787ee;
+    margin-bottom: 10px;
+}
+
+.helpText {
+    font-size: 1.3em;
+    color: #41aa8a;
+    line-height: 1.5;
+}

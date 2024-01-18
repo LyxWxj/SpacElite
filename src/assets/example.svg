@@ -1,0 +1,205 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 915 211" class="design-iconfont">
+  <g fill="none" fill-rule="evenodd">
+    <path stroke="#DDD" fill="#FAFAFA" d="M0.5 0.5H123.5V35.5H0.5z"/>
+    <text font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" fill="#333">
+      <tspan x="45.144" y="23">第1列</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FAFAFA" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(123)"/>
+    <text font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" fill="#333" transform="translate(123)">
+      <tspan x="43.8" y="23">第2列</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FAFAFA" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(246)"/>
+    <text font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" fill="#333" transform="translate(246)">
+      <tspan x="43.8" y="23">第3列</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FAFAFA" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(369)"/>
+    <text font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" fill="#333" transform="translate(369)">
+      <tspan x="43.8" y="23">第4列</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FAFAFA" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(492)"/>
+    <text font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" fill="#333" transform="translate(492)">
+      <tspan x="43.8" y="23">第5列</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FAFAFA" d="M0.5 0.5H176.5V35.5H0.5z" transform="translate(615)"/>
+    <text font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" fill="#333" transform="translate(615)">
+      <tspan x="70.3" y="23">第6列</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FAFAFA" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(791)"/>
+    <text font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" fill="#333" transform="translate(791)">
+      <tspan x="48" y="23">……</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(0 35)"/>
+    <text font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" fill="#333" transform="translate(0 35)">
+      <tspan x="48" y="23">编号</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(123 35)"/>
+    <text font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" fill="#333" transform="translate(123 35)">
+      <tspan x="48" y="23">性别</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(246 35)"/>
+    <text font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" fill="#333" transform="translate(246 35)">
+      <tspan x="48" y="23">年龄</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(369 35)"/>
+    <text font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" fill="#333" transform="translate(369 35)">
+      <tspan x="48" y="23">学历</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(492 35)"/>
+    <text font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" fill="#333" transform="translate(492 35)">
+      <tspan x="41" y="23">年收入</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H176.5V35.5H0.5z" transform="translate(615 35)"/>
+    <text font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" fill="#333" transform="translate(615 35)">
+      <tspan x="74.5" y="23">日期</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(791 35)"/>
+    <text font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" fill="#333" transform="translate(791 35)">
+      <tspan x="48" y="23">……</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(0 70)"/>
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(0 70)">
+      <tspan x="59.193" y="23">1</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(123 70)"/>
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(123 70)">
+      <tspan x="59.193" y="23">1</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(246 70)"/>
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(246 70)">
+      <tspan x="57.8" y="23">3</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(369 70)"/>
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(369 70)">
+      <tspan x="57.8" y="23">2</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(492 70)"/>
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(492 70)">
+      <tspan x="57.8" y="23">2</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H176.5V35.5H0.5z" transform="translate(615 70)"/>
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(615 70)">
+      <tspan x="54.886" y="23">2021/8/12</tspan>
+    </text>
+    <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(791 70)"/>
+    <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(791 70)">
+      <tspan x="48" y="23">……</tspan>
+    </text>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(0 105)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(0 105)">
+        <tspan x="57.8" y="23">2</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(123 105)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(123 105)">
+        <tspan x="59.193" y="23">1</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(246 105)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(246 105)">
+        <tspan x="57.8" y="23">2</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(369 105)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(369 105)">
+        <tspan x="57.8" y="23">3</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(492 105)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(492 105)">
+        <tspan x="57.8" y="23">2</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H176.5V35.5H0.5z" transform="translate(615 105)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(615 105)">
+        <tspan x="54.886" y="23">2021/8/13</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(791 105)"/>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(0 140)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(0 140)">
+        <tspan x="57.8" y="23">3</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(123 140)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(123 140)">
+        <tspan x="57.8" y="23">2</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(246 140)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(246 140)">
+        <tspan x="57.8" y="23">2</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(369 140)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(369 140)">
+        <tspan x="57.8" y="23">4</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(492 140)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(492 140)">
+        <tspan x="57.8" y="23">2</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H176.5V35.5H0.5z" transform="translate(615 140)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(615 140)">
+        <tspan x="54.886" y="23">2021/8/14</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(791 140)"/>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(0 175)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(0 175)">
+        <tspan x="57.8" y="23">4</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(123 175)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(123 175)">
+        <tspan x="57.8" y="23">2</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(246 175)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(246 175)">
+        <tspan x="59.193" y="23">1</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(369 175)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(369 175)">
+        <tspan x="59.193" y="23">1</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(492 175)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(492 175)">
+        <tspan x="57.8" y="23">3</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H176.5V35.5H0.5z" transform="translate(615 175)"/>
+      <text font-family="PingFangSC-Regular, PingFang SC" font-size="14" fill="#333" transform="translate(615 175)">
+        <tspan x="54.886" y="23">2021/8/15</tspan>
+      </text>
+    </g>
+    <g>
+      <path stroke="#DDD" fill="#FFF" d="M0.5 0.5H123.5V35.5H0.5z" transform="translate(791 175)"/>
+    </g>
+  </g>
+</svg>

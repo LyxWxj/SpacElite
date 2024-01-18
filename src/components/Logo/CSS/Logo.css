@@ -1,0 +1,79 @@
+.logo {
+    text-align: right;
+    line-height: 0.01;
+    color:rgb(161, 177, 226);
+    z-index: 2;
+}
+
+a.logo {
+    text-decoration: none;
+    z-index: 2;
+}
+
+
+.logoline1, .logoline2, .logoline3 {
+    text-align: right;
+    line-height: 0.01;
+    transition: color 0.4s ease;
+    z-index: 2;
+}
+
+.logoline1 {
+    font-size: 1.25em;
+    font-weight: bold;
+    z-index: 2;
+    color: #dd6dad;
+}
+
+.logo:hover .logoline1 {
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #ce4a95;
+}
+
+a .logoline1_spac {
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #37b5c6;
+}
+
+.logo:hover .logoline1_spac {
+    font-size: 1.0em;
+    color: #2ba7b7;
+    font-weight: bold;
+}
+
+.logoline1_E {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ec5eae;
+}
+
+.logo:hover .logoline1_E{
+    color: #ec44a3;
+}
+
+.logoline2 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #4db3ac;
+}
+
+.logo:hover .logoline2 {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #1c9189;
+}
+
+.logoline3 {
+    font-size: 1em;
+    font-weight: bold;
+    color: #41aa8a;
+}
+
+.logo:hover .logoline3 {
+    font-size: 1em;
+    font-weight: bold;
+    color: #1e7e61;
+}
+

@@ -1,0 +1,135 @@
+
+.logoline1 {
+    font-size: 2.0em;
+    z-index: 1;
+}
+
+.logoline2 {
+    font-size: 1.85em;
+    z-index: 1;
+}
+
+.logoline3 {
+    font-size: 1.75em;
+    z-index: 1;
+}
+
+.logoline1, .logoline2, .logoline3 {
+    text-align: right;
+    margin: 0;
+    font-weight: 900;
+    z-index: 1;
+}
+
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+/* .centered p {
+    background-image: linear-gradient(to right, #32c5d8, #28d0d9, #2adbd8, #39e6d3, #50f0cd);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap; /* 添加这一行 */
+/* } */
+
+
+/* .centered p, .centered h1 {
+    background-image: linear-gradient(to right, #32c5d8, #28d0d9, #2adbd8, #39e6d3, #50f0cd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.headtitle {
+    font-size: 4.5em;
+    font-weight: bold;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    font-size: 6.0em;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.spac, .E, .Lite {
+    color: #32C5D8;
+    transition: color 0.45s ease;
+    z-index: 1;
+}
+
+a:hover .spac {
+    color:rgb(99, 127, 161);
+}
+
+a:hover .E {
+    color:rgb(189, 117, 223);
+}
+
+a:hover .Lite {
+    color:rgb(194, 92, 150);
+}
+
+.subline {
+    font-size: 0.3em;
+    font-weight: bold;
+    color: #7bafc0;
+    margin: 0;
+    align-items: center;
+    text-align: center; /* 添加这一行 */
+    transition: color 0.45s ease;
+    z-index: 1;
+}
+
+a:hover .subline {
+    color: #43c8da;
+}
+
+.enter-button {
+    background-color: rgba(255, 255, 255, 0.5); /* 半透明 */
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 2px;
+    transition-duration: 0.4s; /* 过渡效果 */
+    cursor: pointer;
+    border-radius: 35px; /* 创建胶囊形状 */
+    color: #97D3E5;
+    font-weight: bold;
+}
+
+.enter-button:hover {
+    background-color: #73bfd4;
+    color: rgb(202, 152, 224);
+    padding: 19px 38px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+}
+
+.v-enter-active {
+  transition: opacity 0.4s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}

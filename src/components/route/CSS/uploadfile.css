@@ -1,0 +1,134 @@
+.uploadbox {
+    display: flex;
+    align-items: center;
+    height: 30vh;
+}
+  
+.uploadAndhint {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16vw;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+}
+
+.inputup {
+    width: 100%;
+    height: 150px;
+    border: 2px dashed #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.Uploaddiv {
+    text-align: center;
+}
+
+#updata {
+    position: relative;
+    z-index: 2;
+}
+
+#updata a {
+    color: rgb(150, 167, 204); /* 设置颜色 */
+}
+
+#updata a:hover {
+    color: rgb(96, 128, 209); /* 设置高亮颜色 */
+}
+
+.fileopcti {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.hint {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #888;
+}
+
+.examplechart {
+    width: 250%;
+    border: 1px dashed #ddd;
+}
+
+.example {
+    margin-top: 1vh;
+    margin-left:17.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.example span {
+    text-align: left; 
+    display: block;
+}
+
+.upload {
+    display: flex;
+    height: 28vh;
+    justify-content: center; /* 水平居中 */
+}
+
+body {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.previewBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 55vh;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: rgba(255, 255, 255, 0.65);
+    border-radius: 25px;
+    margin-left:10vw;
+  }
+
+.previewTitle span {
+    text-align: left; 
+    display: block;
+}
+
+.previewTable {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll; /* 纵向滚动条 */
+    overflow-x: scroll; /* 横向滚动条*/
+    z-index: 0;
+}
+
+
+
+.v-enter-active {
+    transition: opacity 0.35s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+    opacity: 0;
+}

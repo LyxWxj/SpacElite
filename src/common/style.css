@@ -1,0 +1,12 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#particles-js {
+    height: 100vh; /* 设置高度为视口的 100% */
+    width: 100%; /* 设置宽度为 100% */
+    position: absolute; /* 设置定位为绝对定位 */
+    top: 0; /* 设置顶部位置为 0 */
+    left: 0; /* 设置左侧位置为 0 */
+}

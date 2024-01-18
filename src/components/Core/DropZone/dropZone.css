@@ -1,0 +1,30 @@
+.fieldPlace {
+    width: 25.75vw;
+    height: 20vh;
+    overflow-y: scroll;
+    z-index: 2;
+}
+
+.tableField {   
+  height: 5vh;
+  width: 15.5vw;
+  line-height: 5vh; /* 添加这一行 */
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #7fb8f5;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  list-style-type:none;
+  transition: background-color 0.3s ease;
+  margin-top: 1.5vh;
+  margin-bottom: 1.5vh;
+  margin-left: 2vw;
+}
+
+.tableField:hover{
+    background-color: #4ea1fa;
+}
